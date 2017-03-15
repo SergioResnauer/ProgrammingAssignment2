@@ -4,11 +4,8 @@
 ## cacheSolve function calculate the inverse matrix that was created by the makeCacheMatrix.
 
 makeCacheMatrix <- function(x = matrix()) {
-        ##numrow <- sqrt(length(x))
-        ##x <- matrix(x, nrow = numrow, ncol = numrow)
         mxi <- NULL
         set <- function(y = matrix()) {
-                ##numrow <- sqrt(length(y))
                 x <<- y
                 mxi <<- NULL
         }
